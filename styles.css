@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    width: 100%;
+    background-color:#8db1ce;
+    color: rgb(63, 56, 56);
+}
+
+
+#heading {
+    margin-top: 90px;
+}
+
+
+#nav {
+    box-shadow: rgba(53, 53, 95, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+#search-bar {
+    max-width: 600px;
+}
+
+#search-bar input {
+    height: 55px;
+    border-radius: 16px;
+}
+
+
+/* meal card */
+#card {
+    background-color: #4985d3;
+    padding: 11px;
+    color: white;
+    box-shadow: rgba(27, 27, 27, 0.35) 0px 5px 15px;
+}
+
+#card img {
+    border-radius: 8%;
+}
+
+
+/* meal details container */
+#meal-details{
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #4985d3 ;
+}
+#meal-header{
+    width: 60%;
+    margin: auto;
+}
+#meal-thumbail img{
+    height: 250px;
+    width: 250px;
+    border-radius: 12%;
+}
+#details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#meal-instruction{
+    margin: auto;
+    text-align: center;
+}
+
+
+#favourites-body{
+    background-color:#454f57 ;
+}
