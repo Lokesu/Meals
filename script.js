@@ -139,7 +139,7 @@ async function showFavMealList() {
                         <h5 class="card-title">${data.meals[0].strMeal}</h5>
                         <div class="d-flex justify-content-between mt-5">
                             <button type="button" class="btn btn-success" onclick="showMealDetails(${data.meals[0].idMeal})">More info</button>
-                            <button id="main${data.meals[0].idMeal}" class="btn btn-danger active" onclick="addRemoveToFavList(${data.meals[0].idMeal})" style="border-radius:12%"><i class="fa-solid fa-heart"></i></button>
+                            <button id="main${data.meals[0].idMeal}" class="btn btn-danger active" onclick="addRemoveToFavList(${data.meals[0].idMeal})" style="border-radius:12%"></i>X</button>
                         </div>
                     </div>
                 </div>
