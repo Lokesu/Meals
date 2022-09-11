@@ -35,7 +35,7 @@ function showMealList(){
                         <h5 class="card-title">${element.strMeal}</h5>
                         <div class="d-flex justify-content-between mt-5">
                             <button type="button" class="btn btn-success" onclick="showMealDetails(${element.idMeal})">More info</button>
-                            <button id="main${element.idMeal}" class="btn btn-danger active" onclick="addRemoveToFavList(${element.idMeal})" style="border-radius:50%"><i class="fa-solid fa-heart"></i></button>
+                            <button id="main${element.idMeal}" class="btn btn-danger active" onclick="addRemoveToFavList(${element.idMeal})" style="border-radius:50%">fav</button>
                         </div>
                     </div>
                 </div>
@@ -48,7 +48,7 @@ function showMealList(){
                         <h5 class="card-title">${element.strMeal}</h5>
                         <div class="d-flex justify-content-between mt-5">
                             <button type="button" class="btn btn-success" onclick="showMealDetails(${element.idMeal})">More info</button>
-                            <button id="main${element.idMeal}" class="btn btn-danger" onclick="addRemoveToFavList(${element.idMeal})" style="border-radius:12%"><i class="fa-solid fa-heart"></i></button>
+                            <button id="main${element.idMeal}" class="btn btn-danger" onclick="addRemoveToFavList(${element.idMeal})" style="border-radius:12%">add</i></button>
                         </div>
                     </div>
                 </div>
