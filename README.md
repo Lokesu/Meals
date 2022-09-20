@@ -4,4 +4,4 @@ Search any meal from the API and display the search results on the frontend (as 
 Each search result of the meal have a favourite button, clicking on which the meal will be added to “My favourite meals” (a list).
 On clicking any particular search result (any meal), will open a new page with more information about that meal(meal page).
 
-
+Hosted link : https://lokesu.github.io/Meals/
